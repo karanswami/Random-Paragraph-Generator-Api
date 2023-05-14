@@ -58,7 +58,7 @@ app.use((req, res, next) => {
 // Error handling middleware
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
-  res.sendFile(path.join(__dirname, 'error.html'));
+  res.sendFile(path.join(__dirname, '404.html'));
 });
 
 // Start the server on port 5000
