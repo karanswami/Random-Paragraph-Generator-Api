@@ -1,12 +1,14 @@
 {
-  "name": "random-paragraph-api",
+  "name": "typing-test-api",
   "version": "1.0.0",
-  "description": "It's api for random generate random paragraphs",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "description": "A simple API for generating random typing test paragraphs",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Karan Swami",
+  "license": "ISC"
 }
