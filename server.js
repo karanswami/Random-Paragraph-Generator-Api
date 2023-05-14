@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // Define the path to the JSON file
-const filePath = path.join(__dirname, 'data/paragraphs.json');
+const filePath = path.join(__dirname, 'paragraphs.json');
 
 // Define a route to return a random paragraph
 app.get('/paragraph', (req, res) => {
@@ -58,7 +58,7 @@ app.use((req, res, next) => {
 // Error handling middleware
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
-  res.sendFile(path.join(__dirname, 'error/error.html'));
+  res.sendFile(path.join(__dirname, 'error.html'));
 });
 
 // Start the server on port 5000
