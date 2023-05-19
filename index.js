@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
       <body>
         <h1>Typing Test API</h1>
         <p>To use this API, make a GET request to the /paragraph endpoint. The response will be a random paragraph in plain text format. </p>
-        <p>Example usage: <code>curl http://localhost:3000/paragraph</code></p>
+        <p>Example usage: <code>curl https://random-paragraph-generator-api.vercel.app/paragraph</code></p>
       </body>
     </html>
   `);
